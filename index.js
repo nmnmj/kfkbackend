@@ -5,7 +5,7 @@ import express from 'express';
 import cors from 'cors';
 import Kafka from 'node-rdkafka';
 import { WebSocketServer } from 'ws';
-import connectDB from './config/connectdb.js';
+import connectDB from './config/connectDB.js'
 import { kafkaConfig, kafkaConsumerConfig } from './config/kafka.config.js';
 import subsModel from './models/subscriptionModel.js';
 import blogModel from './models/blogmodal.js';
